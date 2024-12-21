@@ -1,0 +1,54 @@
+Dockerfile
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Environment variables
+.env
+
+# Logs and temporary files
+*.log
+*.out
+*.pid
+
+# Virtual environments
+venv/
+env/
+.venv/
+.env/
+
+# Model and large files (if not needed in version control)
+model/
+*.h5
+*.bin
+*.json
+
+# Docker-related files
+docker-compose.override.yml
+
+# Node.js (if applicable, like for frontend or backend JS code)
+node_modules/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# IDE-specific files
+.vscode/
+.idea/
+*.swp
+
+# Build and distribution
+build/
+dist/
+*.egg-info/
+*.egg
+*.whl
+pip-wheel-metadata/
+
+# Temporary and cache files
+*.tmp
+*.cache
