@@ -11,3 +11,4 @@ seaborn
 h5py
 scikit-learn
 tqdm
+tensorflowjs
